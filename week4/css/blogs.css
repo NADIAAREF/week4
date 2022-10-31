@@ -1,0 +1,29 @@
+#blogs_main{
+    background:url("/assets/blogvid.mp4");
+    min-height: 100vh;
+    padding:2rem;
+}
+.articles{
+    width:80%;
+    margin:auto;
+
+    padding:2rem;
+    background-color:var(--color-dark);
+    border-radius:8px;
+}
+.article{
+    padding:2rem;
+    border:0.5px solid #d8d8d8;
+    border-radius:8px;
+    font-size:20px;
+}
+.article:not(:last-child)
+{
+    margin-bottom: 20px;
+}
+.article h1,
+.article p,
+.article ul,
+.article h2{
+    padding: 1rem;
+}

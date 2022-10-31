@@ -1,0 +1,38 @@
+
+main{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height:100vh;
+    background:url('/assets/tool.png');
+    background-size:cover;
+}
+.getstarted{
+    width: 80%;
+    padding:2rem;
+    background-color:rgba(255, 255,255,0.8);
+    border-radius: 8px;
+}
+h1{
+    font-family:'Poppins',sans-serif;
+    padding:1rem 0;
+    color:var(--color-primary-dark)
+}
+p{
+    padding:1rem 0;
+    font-size:1.6rem;
+}
+.button{
+    background-color:var(--color-dark);
+    color:var(--color-primary-dark);
+    border:none;
+    padding:1.2rem 2rem;
+    border-radius:50px;
+    margin: 1rem 0;
+
+}
+.button:hover{
+    background-color:var(--color-primary);
+    transition: 0.7s;
+}
